@@ -1,16 +1,16 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="icons/icon-white128.png">
-  <img width="128" height="128" alt="Tab it" src="icons/icon128.png">
+  <img width="128" height="128" alt="TabItBro" src="icons/icon128.png">
 </picture>
 
-# Tab it
+# TabItBro
 
 Keep the page you are on, and open new destinations in a new tab.
 
 <img width="289" height="336" alt="2026-11-20 18_11_08-Technocracy" src="https://github.com/user-attachments/assets/669bd70e-6275-4f5c-9522-f5570191c8f7" />
 
 
-Tab it is a small Chrome extension (Manifest V3) that makes these navigations open in a new tab instead of replacing the current page:
+TabItBro is a small Chrome extension (Manifest V3) that makes these navigations open in a new tab instead of replacing the current page:
 
 1. Links that point to a different domain (subdomains count as the same domain)
 2. URLs typed or pasted into the address bar, plus address-bar searches
@@ -23,7 +23,7 @@ Each one is a checkbox on the options page. New tabs can also be opened in the b
 
 Download and install the latest version from The Chrome or [Edge](https://microsoftedge.microsoft.com/addons/detail/dafmiicjoamppjffiegmjdedbdfhepee) stores.
 
-Otherwise from the [Releases](https://github.com/unalignedcoder/tabit/releases) page, then:
+Otherwise from the [Releases](https://github.com/unalignedcoder/tabitbro/releases) page, then:
 
 1. Open `chrome://extensions` (`edge://extensions`, `brave://extensions`…) and turn on **Developer mode**.
 2. Click **Load unpacked** and select the extension folder.
@@ -42,7 +42,7 @@ Chrome gives extensions no way to read the toolbar color, and the service worker
 
 ## Limitations
 
-**Chrome has no API that lets an extension stop or redirect an address-bar, bookmark or history navigation before it happens.** The only thing an extension can do is react once the navigation has started. So for options #2–#4, Tab it has to let the page **open in the same tab first, then go back**:
+**Chrome has no API that lets an extension stop or redirect an address-bar, bookmark or history navigation before it happens.** The only thing an extension can do is react once the navigation has started. So for options #2–#4, TabItBro has to let the page **open in the same tab first, then go back**:
 
 - The current tab briefly starts loading the new page, then goes back to the previous one, while the page opens in a new tab. You may see a short flicker.
 - The site may receive one extra request (from the tab that went back).
@@ -58,7 +58,7 @@ Other limitations:
 
 ## Permissions
 
-Tab it has a single purpose: open the kinds of navigation you choose in a new tab instead of the current one. It requests only what that needs:
+TabItBro has a single purpose: open the kinds of navigation you choose in a new tab instead of the current one. It requests only what that needs:
 
 | Permission | Why |
 |---|---|
@@ -81,6 +81,9 @@ icons/           extension icons (blue for light themes, white for dark ones)
 
 ## Changelog
 
+### 1.0.3
+- Renamed to TabItBro (the repository is now github.com/unalignedcoder/tabitbro)
+
 ### 1.0.2
 - Options page: wider (560px) and no horizontal scrolling; text and images shrink to fit narrow dialogs
 - Added a [privacy policy](privacy.md): the extension collects and sends no data
@@ -98,7 +101,7 @@ icons/           extension icons (blue for light themes, white for dark ones)
 
 ## Support
 
-Tab it is free. If you find it useful, you can support its development:
+TabItBro is free. If you find it useful, you can support its development:
 
 <a href="https://buymeacoffee.com/unalignedcoder" target="_blank"><img src="icons/buymeacoffee.png" alt="Buy me a coffee" width="218" height="61"></a>
 

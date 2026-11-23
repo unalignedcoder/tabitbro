@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Tab it",
-  "version": "1.0.2",
+  "name": "TabItBro",
+  "version": "1.0.3",
   "description": "Open external links, address-bar URLs, bookmarks and history items in a new tab.",
   "browser_specific_settings": {
     "gecko": {
@@ -15,7 +15,7 @@
     "128": "icons/icon128.png"
   },
   "action": {
-    "default_title": "Tab it options",
+    "default_title": "TabItBro options",
     "default_icon": {
       "16": "icons/icon16.png",
       "32": "icons/icon32.png",
